@@ -13,26 +13,35 @@
                 margin: auto;
             }
             h2{
-                padding: 2em 1em 0.2em 1em;
+                padding: 2em 1em 0.2em 0em;
             }
 
             .button{
                 background-color: #ddd;
                 color: black;
                 padding:0.5em;
+                
+                text-decoration: none;
+            }
+
+            .centre{
                 width: 40%;
                 text-align: center;
                 margin: auto;
                 display: block;
-                text-decoration: none;
+            }
 
-
+            .goto{
+                float: right;
+                font-size: 50%;
+                font-weight: normal;
             }
 
         </style>
     </head>
     <body style="max-width:36em;">
-        <h1>zenjournal App</h1>
+        <h1>zenjournal App <a class="button goto" href="https://app.zenjournal.org">Go to App</a></h1>
+        
         <p>A simple and distraction-free journalling app with a focus on privacy and ease of use.</p>
 
         <h2>Features</h2>
@@ -44,11 +53,11 @@
             <li>No tracking or analytics - if you care to, please provide feedback via <a href="https://github.com/foopod/zenjournal-app">github issue</a>.</li>
         </ul>
 
-        <a class="button" href="https://app.zenjournal.org">Try it now</a>
-
         <h2>Why another journalling app?</h2>
 
         <p>My 2021 new years resolution was to start journalling. All I wanted was a template I could fill in every day. Other journal apps either made this tedious (Notion looking at you) or just couldn't do it.</p>
+
+        <a class="button centre" href="https://app.zenjournal.org">Try it now</a>
 
         <h2>Roadmap</h2>
 
